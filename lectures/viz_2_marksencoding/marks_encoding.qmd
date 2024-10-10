@@ -43,6 +43,13 @@ from vega_datasets import data as vega_data
 ```
 
 ```{python}
+import altair as alt
+from vega_datasets import data as vega_data
+#alt.renderers.enable('png')
+```
+
+
+```{python}
 #| eval: false
 data = vega_data.gapminder()
 ```
